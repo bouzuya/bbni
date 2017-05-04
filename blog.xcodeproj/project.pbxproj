@@ -17,6 +17,7 @@
 		6D9FCB3E1EBAA7D900EEFB72 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FCB3D1EBAA7D900EEFB72 /* Entry.swift */; };
 		6D9FCB401EBAA84400EEFB72 /* EntryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FCB3F1EBAA84400EEFB72 /* EntryError.swift */; };
 		6D9FCB421EBAA8B700EEFB72 /* EntryListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FCB411EBAA8B700EEFB72 /* EntryListRequest.swift */; };
+		6D9FCB441EBAA97300EEFB72 /* EntryDetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FCB431EBAA97300EEFB72 /* EntryDetailRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6D9FCB3D1EBAA7D900EEFB72 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		6D9FCB3F1EBAA84400EEFB72 /* EntryError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryError.swift; sourceTree = "<group>"; };
 		6D9FCB411EBAA8B700EEFB72 /* EntryListRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryListRequest.swift; sourceTree = "<group>"; };
+		6D9FCB431EBAA97300EEFB72 /* EntryDetailRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryDetailRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				6D9FCB3D1EBAA7D900EEFB72 /* Entry.swift */,
 				6D9FCB3F1EBAA84400EEFB72 /* EntryError.swift */,
 				6D9FCB411EBAA8B700EEFB72 /* EntryListRequest.swift */,
+				6D9FCB431EBAA97300EEFB72 /* EntryDetailRequest.swift */,
 			);
 			path = blog;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D9FCB3E1EBAA7D900EEFB72 /* Entry.swift in Sources */,
+				6D9FCB441EBAA97300EEFB72 /* EntryDetailRequest.swift in Sources */,
 				6D2CAC751EB625F400978A94 /* ViewController.swift in Sources */,
 				6D9FCB421EBAA8B700EEFB72 /* EntryListRequest.swift in Sources */,
 				6D2CAC731EB625F400978A94 /* AppDelegate.swift in Sources */,
