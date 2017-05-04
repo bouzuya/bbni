@@ -52,6 +52,28 @@ class EntryTableViewController: UITableViewController {
         return cell
     }
     
+    // MARK: - Navigation
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let entryDetailViewController = segue.destination as? EntryDetailViewController else {
+            return
+        }
+        
+        guard let selectedViewCell = sender as? EntryTableViewCell else {
+            return
+        }
+        
+        guard let indexPath = tableView.indexPath(for: selectedViewCell) else {
+            return
+        }
+        
+        let selectedEntry = entryList[indexPath.row]
+        
+        entryDetailViewController.date = selectedEntry.date
+        entryDetailViewController.navigationItem.title = selectedEntry.date
+    }
+    
     // MARK: - Actions
     
     @IBAction func reload(_ sender: UIBarButtonItem) {

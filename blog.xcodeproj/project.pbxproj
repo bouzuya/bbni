@@ -19,6 +19,7 @@
 		6D9FCB441EBAA97300EEFB72 /* EntryDetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FCB431EBAA97300EEFB72 /* EntryDetailRequest.swift */; };
 		6D9FCB461EBAAAD700EEFB72 /* EntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FCB451EBAAAD700EEFB72 /* EntryTableViewController.swift */; };
 		6D9FCB481EBAABBA00EEFB72 /* EntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FCB471EBAABBA00EEFB72 /* EntryTableViewCell.swift */; };
+		6D9FCB4A1EBAAE0900EEFB72 /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9FCB491EBAAE0900EEFB72 /* EntryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		6D9FCB431EBAA97300EEFB72 /* EntryDetailRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryDetailRequest.swift; sourceTree = "<group>"; };
 		6D9FCB451EBAAAD700EEFB72 /* EntryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryTableViewController.swift; sourceTree = "<group>"; };
 		6D9FCB471EBAABBA00EEFB72 /* EntryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryTableViewCell.swift; sourceTree = "<group>"; };
+		6D9FCB491EBAAE0900EEFB72 /* EntryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryDetailViewController.swift; path = ../EntryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				6D9FCB431EBAA97300EEFB72 /* EntryDetailRequest.swift */,
 				6D9FCB471EBAABBA00EEFB72 /* EntryTableViewCell.swift */,
 				6D9FCB451EBAAAD700EEFB72 /* EntryTableViewController.swift */,
+				6D9FCB491EBAAE0900EEFB72 /* EntryDetailViewController.swift */,
 			);
 			path = blog;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				6D9FCB481EBAABBA00EEFB72 /* EntryTableViewCell.swift in Sources */,
 				6D2CAC731EB625F400978A94 /* AppDelegate.swift in Sources */,
 				6D9FCB461EBAAAD700EEFB72 /* EntryTableViewController.swift in Sources */,
+				6D9FCB4A1EBAAE0900EEFB72 /* EntryDetailViewController.swift in Sources */,
 				6D9FCB401EBAA84400EEFB72 /* EntryError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -44,6 +44,7 @@
                                 <connections>
                                     <outlet property="detailLabel" destination="fPf-xB-RRf" id="VBW-bB-LXx"/>
                                     <outlet property="titleLabel" destination="YmJ-9F-lQ9" id="BK8-VD-oZn"/>
+                                    <segue destination="x8A-78-gjK" kind="show" id="mxc-rg-Xpi"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -57,6 +58,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddb-zz-pCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="951.20000000000005" y="-235.23238380809596"/>
+        </scene>
+        <!--Entry Detail View Controller-->
+        <scene sceneID="DYu-Ob-3WB">
+            <objects>
+                <viewController id="x8A-78-gjK" customClass="EntryDetailViewController" customModule="blog" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Oe-g7-DbO"/>
+                        <viewControllerLayoutGuide type="bottom" id="JNl-AQ-KmW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ig0-iJ-DO7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N7F-Ud-zRn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JNl-AQ-KmW" firstAttribute="top" secondItem="N7F-Ud-zRn" secondAttribute="bottom" id="5Dn-4K-0QH"/>
+                            <constraint firstItem="N7F-Ud-zRn" firstAttribute="leading" secondItem="ig0-iJ-DO7" secondAttribute="leading" id="Qne-rI-rQd"/>
+                            <constraint firstItem="N7F-Ud-zRn" firstAttribute="top" secondItem="ig0-iJ-DO7" secondAttribute="top" id="Xml-Lc-RjU"/>
+                            <constraint firstAttribute="trailing" secondItem="N7F-Ud-zRn" secondAttribute="trailing" id="y0O-HR-aqR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="entryDetailWebView" destination="N7F-Ud-zRn" id="KGC-4A-7GZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mFs-3x-ZLR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1634" y="-235"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hFm-Q1-f4d">
